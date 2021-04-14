@@ -13,7 +13,7 @@ def clean_amount(action):
             print(f'\nPlease enter a valid amount, Zuri. Try Again.')
 
 
-# This checks if the budget has sufficient funds to perform a withdrawal or a transfer
+# This checks if the budget has sufficient funds to perform a withdrawal or a transfer.
 def funds_validation(action, category, budget):
     insufficient_funds = False
     while not insufficient_funds:
